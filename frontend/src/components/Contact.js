@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Contact = () => {
-
-    return (
-        null
-    )
+class Contact extends React.Component {
+  render() {
+    return null;
+  }
 }
 
 export default Contact;

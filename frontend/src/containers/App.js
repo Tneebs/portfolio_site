@@ -1,52 +1,45 @@
 import React from "react";
-import '../App.css';
-import Footer from '../components/Footer';
-import Blogs from '../components/Blogs';
-import Contact from '../components/Contact';
-import Home from '../components/Home';
-import Portfolio from '../components/Portfolio';
-import Resume from '../components/Resume';
+import "../App.css";
+import Footer from "../components/Footer";
+import Blogs from "../components/Blogs";
+import Contact from "../components/Contact";
+import Home from "../components/Home";
+import Portfolio from "../components/Portfolio";
+import Resume from "../components/Resume";
 
-import {
-  Switch,
-  Route,
-  withRouter,
-  Redirect
-} from "react-router-dom";
+import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 
 class App extends React.Components {
-  render(){
-  return (
-  <Switch>
-    <div className="App">
+  render() {
+    return (
+      <Switch>
+        <div className="App">
+          <Route exact path="/">
+            <Home />
+          </Route>
 
-      <Route exact path='/'>
-        <Home />
-      </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
 
-      <Route path='/portfolio'>
-        <Portfolio />
-      </Route>
+          <Route path="/blogs">
+            <Blogs />
+          </Route>
 
-      <Route path='/blogs'>
-        <Blogs />
-      </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
 
-      <Route path='/resume'>
-        <Resume />
-      </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
 
-      <Route path='/contact'>
-        <Contact />
-      </Route>
-
-      <Route>
-        <Redirect to='/' />
-      </Route>
-
-    </div>
-  </Switch>
-  );
+          <Route>
+            <Redirect to="/" />
+          </Route>
+        </div>
+      </Switch>
+    );
   }
 }
 

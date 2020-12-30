@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Resume = () => {
-
-    return (
-        null
-    )
-}
+  return null;
+};
 
 export default Resume;
