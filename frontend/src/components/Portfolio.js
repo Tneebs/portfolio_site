@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Portfolio = () => {
-
-    return (
-        null
-    )
-}
+  return null;
+};
 
 export default Portfolio;

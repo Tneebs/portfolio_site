@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Blogs = () => {
-
-    return (
-        null
-    )
-}
+  return null;
+};
 
 export default Blogs;
