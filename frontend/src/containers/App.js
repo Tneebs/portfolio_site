@@ -7,40 +7,48 @@ import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
 import Resume from "../components/Resume";
 
-import { Switch, Route, withRouter, Redirect } from "react-router-dom";
+import {
+  Switch,
+  BrowserRouter,
+  Route,
+  withRouter,
+  Redirect,
+} from "react-router-dom";
 
-class App extends React.Components {
+class App extends React.Component {
   render() {
     return (
-      <Switch>
-        <div className="App">
-          <Route exact path="/">
-            <Home />
-          </Route>
+      <div className="App">
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
 
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
 
-          <Route path="/blogs">
-            <Blogs />
-          </Route>
+            <Route path="/blogs">
+              <Blogs />
+            </Route>
 
-          <Route path="/resume">
-            <Resume />
-          </Route>
+            <Route path="/resume">
+              <Resume />
+            </Route>
 
-          <Route path="/contact">
-            <Contact />
-          </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
 
-          <Route>
-            <Redirect to="/" />
-          </Route>
-        </div>
-      </Switch>
+            <Route>
+              <Redirect to="/" />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </div>
     );
   }
 }
 
-export default withRouter(App);
+export default App;
