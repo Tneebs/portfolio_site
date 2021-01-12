@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Footer from "../components/Footer";
+import Footer from "./Footer";
 import Blogs from "../components/Blogs";
 import Contact from "../components/Contact";
 import Home from "../components/Home";
@@ -20,6 +20,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <BrowserRouter>
+          <Footer />
           <Switch>
             <Route exact path="/">
               <Home />
