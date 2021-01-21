@@ -1,5 +1,10 @@
 import React from 'react';
 import github from '../images/github.png';
+import GoogleDocs from '../images/GoogleDocs.png';
+import Instagram from '../images/Instagram.png';
+import LinkedIn from '../images/LinkedIn.png';
+import Medium from '../images/Medium.png';
+
 
 const MediaLinks = () => {
 
@@ -9,7 +14,7 @@ const MediaLinks = () => {
             
             <div className="mediaLinks">
                 <a href="https://www.linkedin.com/in/tedneben/">
-                    {/* <img id="mediaLinks-logo" alt="linkedin-logo" src={linkedin} /> */}
+                    <img id="mediaLinks-logo" alt="linkedin-logo" src={LinkedIn} />
                 </a>
             </div>
 
@@ -21,25 +26,25 @@ const MediaLinks = () => {
             
             <div className="mediaLinks">
                 <a href="https://tedneben.medium.com/">
-                    {/* <img id="mediaLinks-logo" alt="medium-logo" src={medium} /> */}
+                    <img id="mediaLinks-logo" alt="medium-logo" src={Medium} />
                 </a>
             </div>
 
             <div className="mediaLinks">
                 <a href="https://www.instagram.com/newtonheimer/">
-                    {/* <img id="mediaLinks-logo" alt="instagram-logo" src={instagram} /> */}
+                    <img id="mediaLinks-logo" alt="instagram-logo" src={Instagram} />
                 </a>
             </div>
 
-            <div className="mediaLinks">
+            {/* <div className="mediaLinks">
                 <a href="https://www.youtube.com/channel/UCWZ21OZDoSuvv137rC9Ax2A/featured">
-                    {/* <img id="mediaLinks-logo" alt="youtube-logo" src={youtube} /> */}
+                    <img id="mediaLinks-logo" alt="youtube-logo" src={youtube} />
                 </a>
-            </div>
+            </div> */}
 
             <div className="mediaLinks">
                 <a href="">
-                    {/* <img id="mediaLinks-logo" alt="resume-logo" src={resume} /> */}
+                    <img id="mediaLinks-logo" alt="resume-logo" src={GoogleDocs} />
                 </a>
             </div>
 
