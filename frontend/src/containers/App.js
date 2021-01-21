@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import Footer from "./Footer";
+import Header from './Header';
 import Blogs from "../components/Blogs";
 import Contact from "../components/Contact";
 import Home from "../components/Home";
@@ -13,6 +14,7 @@ import {
   Route,
   withRouter,
   Redirect,
+  NavLink
 } from "react-router-dom";
 
 class App extends React.Component {
@@ -20,7 +22,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <BrowserRouter>
-          <Footer />
+          <Header />
           <Switch>
             <Route exact path="/">
               <Home />
@@ -46,6 +48,7 @@ class App extends React.Component {
               <Redirect to="/" />
             </Route>
           </Switch>
+          <Footer />
         </BrowserRouter>
       </div>
     );

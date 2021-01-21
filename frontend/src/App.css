@@ -42,3 +42,8 @@
   display: flexbox;
   padding-top: 50vh;
 } */
+
+#mediaLinks-logo {
+  height: 12vh;
+  width: 6vw;
+}
