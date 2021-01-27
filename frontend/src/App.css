@@ -45,5 +45,22 @@
 
 #mediaLinks-logo {
   height: 12vh;
-  width: 6vw;
+  width: 8vw;
+  color: white;
+}
+
+.navlinks-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+
 }
