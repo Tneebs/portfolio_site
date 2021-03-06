@@ -13,41 +13,29 @@ const MediaLinks = () => {
     return(
         <div className="footer-container">
             
-            <div className="mediaLinks">
                 <a href="https://www.linkedin.com/in/tedneben/">
-                    <img id="mediaLinks-logo" alt="linkedin-logo" src={LinkedIn} />
+                    <img className="mediaLinks-logo" alt="linkedin-logo" src={LinkedIn} />
                 </a>
-            </div>
 
-            <div className="mediaLinks">
                 <a href="https://github.com/Tneebs">
-                    <img id="mediaLinks-logo" alt="github-logo" src={github} />
+                    <img className="mediaLinks-logo" alt="github-logo" src={github} />
                 </a>
-            </div>
             
-            <div className="mediaLinks">
                 <a href="https://tedneben.medium.com/">
-                    <img id="mediaLinks-logo" alt="medium-logo" src={Medium} />
+                    <img className="mediaLinks-logo" alt="medium-logo" src={Medium} />
                 </a>
-            </div>
 
-            <div className="mediaLinks">
                 <a href="https://www.instagram.com/newtonheimer/">
-                    <img id="mediaLinks-logo" alt="instagram-logo" src={Instagram} />
+                    <img className="mediaLinks-logo" alt="instagram-logo" src={Instagram} />
                 </a>
-            </div>
 
-            <div className="mediaLinks">
                 <a href="https://www.youtube.com/channel/UCWZ21OZDoSuvv137rC9Ax2A/featured">
-                    <img id="mediaLinks-logo" alt="youtube-logo" src={YouTube} />
+                    <img className="mediaLinks-logo" alt="youtube-logo" src={YouTube} />
                 </a>
-            </div>
 
-            <div className="mediaLinks">
                 <a href="">
-                    <img id="mediaLinks-logo" alt="resume-logo" src={GoogleDocs} />
+                    <img className="mediaLinks-logo" alt="resume-logo" src={GoogleDocs} />
                 </a>
-            </div>
 
         </div>
     )
