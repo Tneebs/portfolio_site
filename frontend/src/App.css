@@ -70,10 +70,12 @@ img.mediaLinks-logo {
 
 .portfolio-container-1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  width: 50vw;
-  height: 200vh;
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+  height: 220vh;
 }
 
 .project-card {
@@ -83,7 +85,13 @@ img.mediaLinks-logo {
   border-radius: 15px;
   width: 25vw;
   height: 90vh;
-  box-shadow: 2px 2px 2px grey;
+  box-shadow: 4px 4px 6px 4px grey;
+}
+
+.overview {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .project-vid {
