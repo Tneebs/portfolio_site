@@ -66,6 +66,36 @@ const Portfolio = () => {
 
       </div>
 
+      <div className='project-card'>
+          <iframe
+          className='project-vid'
+          title='Portfoli-U'
+          src='https://www.youtube.com/embed/DumBp8l2R6A'
+          frameBorder='0' allowFullScreen>
+          </iframe>
+          <h1 className='title'>Portfoli-U</h1>
+
+          <div className='description'>
+            <p className='overview'>
+            Portfoli-U is a social project management tool that allows users to connect through means of projects, all while keeping them organized.
+            </p>
+          </div>
+        
+          <div className='technology'>
+          <h3>Technology Stack</h3>
+          <p className='stack'>Ruby on Rails <br/> JavaScript <br/> React <br/> JWT Auth</p>
+          </div>
+
+          <div className='repo-container'>
+              <a href='https://github.com/Tneebs/Portfoli-U' alt='Github: Tneebs'>
+                <div className='repo'>
+                  <img height='50' src={github} alt='Github'/>
+                </div>
+              </a>
+          </div>
+
+      </div>
+
 
       <div className='project-card'>
           <iframe
@@ -89,44 +119,13 @@ const Portfolio = () => {
 
           <div className='repo-container-double'>
               Frontend    
-              <a href='https://github.com/Tneebs/ToughFlix_Mod4_FE' alt='Github: Tneebs'>
+              <a href='https://github.com/Tneebs/ToughFlix_Mod4_FE' alt='Github:Tneebs'>
                 <div className='repo'>
                   <img height='50' src={github} alt='Github'/>
                 </div>
               </a>
               Backend    
-              <a href='https://github.com/Tneebs/ToughFlix_Mod4' alt='Github: Tneebs'>
-                <div className='repo'>
-                  <img height='50' src={github} alt='Github'/>
-                </div>
-              </a>
-          </div>
-
-      </div>
-
-
-      <div className='project-card'>
-          <iframe
-          className='project-vid'
-          title='Portfoli-U'
-          src='https://www.youtube.com/embed/DumBp8l2R6A'
-          frameBorder='0' allowFullScreen>
-          </iframe>
-          <h1 className='title'>Portfoli-U</h1>
-
-          <div className='description'>
-            <p className='overview'>
-            Portfoli-U is a social project management tool that allows users to connect through means of projects, all while keeping them organized.
-            </p>
-          </div>
-        
-          <div className='technology'>
-          <h3>Technology Stack</h3>
-          <p className='stack'>Ruby on Rails <br/> JavaScript <br/> React <br/> JWT Auth</p>
-          </div>
-
-          <div className='repo-container'>
-              <a href='https://github.com/Tneebs/Portfoli-U' alt='Github: Tneebs'>
+              <a href='https://github.com/Tneebs/ToughFlix_Mod4' alt='Github:Tneebs'>
                 <div className='repo'>
                   <img height='50' src={github} alt='Github'/>
                 </div>
