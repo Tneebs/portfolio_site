@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -55,6 +57,7 @@
   bottom: 0;
   width: 100vw;
   background-color: whitesmoke;
+  margin-top: auto;
 }
 
 img.mediaLinks-logo {
@@ -89,4 +92,50 @@ img.mediaLinks-logo {
 
 .repo-container-double {
   display: flex;
+}
+
+/* BLOG PAGE */
+
+.main-blog {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 2px black;
+  background-color: white;
+  opacity: 85%;
+  width: 80%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.blog-img {
+  height: 30vh;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  border: 2px solid white;
+  box-shadow: 1px 1px 1px 1px black;
+  margin: 4vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.blog-card-row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blog-card-title {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-card-img {
+  width: 18vw;
+  margin: 10px;
 }
