@@ -147,3 +147,38 @@ img.mediaLinks-logo {
   width: 18vw;
   margin: 10px;
 }
+
+/* Resume Page */
+
+.resume-page {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  border: 1px solid grey;
+  box-shadow: 4px 4px 4px 4px grey;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 4vw;
+  margin-left: 9vw;
+}
+
+.resume-title {
+  margin-top: 8vh;
+}
+
+.tech-skills {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.project-title {
+  width: 35vw;
+}
+
+.project-desc {
+  width: 37vw;
+}
+
+.project-bullets {
+  display: flex;
+  flex-direction: column;
+}
