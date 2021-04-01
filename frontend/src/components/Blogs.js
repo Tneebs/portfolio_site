@@ -5,32 +5,34 @@ import Bonding from '../images/Bonding.png';
 import TechBalancing from '../images/TechBalancing.jpg'
 import RemoteNetworking from '../images/RemoteNetworking.jpg'
 
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Button from 'react-bootstrap/Button'
+
+
 const Blogs = () => {
   return (
     <div className='blog-container'>
+      <div className='blog-page'>
       <h1>Blogs</h1>
-
-      <div className='main-blog'>
-
-          <a href="https://tedneben.medium.com/stepping-into-redux-from-react-pt-3-4c81d7651f3e">
-            <h1 className='main-blog-title'>Stepping into Redux from React Pt.3</h1>
-          </a>
-
-
-          <a href="https://tedneben.medium.com/stepping-into-redux-from-react-pt-3-4c81d7651f3e">
-            <img className="blog-img" alt="redux3-img" src={ReactRedux} />
-          </a>
-
-          <h2 className='main-blog-body'>In our Pt.2 we went over how to set up redux in our react applications, 
+      <br/>
+      <Jumbotron className='jumbo-container'>
+        <h1 className='main-blog-title'>Stepping into Redux from React Pt.3</h1>
+        <br/>
+        <div className='img-body'>
+        <a href="https://tedneben.medium.com/stepping-into-redux-from-react-pt-3-4c81d7651f3e">
+          <img className="blog-img" alt="redux3-img" src={ReactRedux} />
+        </a>
+        <p className='main-blog-body'>
+          In our Pt.2 we went over how to set up redux in our react applications, 
           how to create a store, how to give access to the store through our Provider component, and started touching 
           on reducers. This part will cover how to write reducers and how to write reducers with different action.types 
-          utilizing switch cases.</h2>
-          
-          <a href='https://tedneben.medium.com/stepping-into-redux-from-react-pt-3-4c81d7651f3e'>
-            <h3 className="read-more">Read More</h3>
-          </a>
-
-      </div>
+          utilizing switch cases.
+        </p>
+        </div>
+        <a href='https://tedneben.medium.com/stepping-into-redux-from-react-pt-3-4c81d7651f3e'>
+          <p><Button variant="primary">Read More</Button></p>
+        </a>
+      </Jumbotron>
 
       <div className='blog-card-row'>
 
@@ -78,6 +80,7 @@ const Blogs = () => {
 
       </div>
 
+      </div>
     </div>
   )
 };
