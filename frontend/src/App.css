@@ -48,6 +48,14 @@
   justify-content: space-around;
 }
 
+/* NAVBAR */
+
+.navbar-links {
+  display: flex;
+  width: 190vw;
+  height: 10vh;
+}
+
 /* FOOTER */
 
 .footer-container {
@@ -123,11 +131,15 @@ img.mediaLinks-logo {
   display: flex;
   flex-direction: column;
   width: 20vw;
+  height: auto;
   border: 2px solid white;
-  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 4px 4px 6px 4px grey;
   margin: 4vw;
   margin-left: 5vw;
   margin-right: 5vw;
+  background-color: white;
+  opacity: 85%;
 }
 
 .blog-card-row {
@@ -148,17 +160,50 @@ img.mediaLinks-logo {
   margin: 10px;
 }
 
+.blog-container {
+  height: 230vh;
+}
+
+.blog-page {
+  height: 200vh;
+}
+
+.jumbo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  opacity: 85%;
+  box-shadow: 3px 3px 4px 3px grey;
+}
+
+.img-body {
+  display: flex;
+}
+
+.main-blog-body {
+  width: 50vw;
+}
+
 /* Resume Page */
+
+.resume-container {
+  height: 100vh;
+}
 
 .resume-page {
   display: flex;
   flex-direction: column;
+  height: 95vh;
   width: 80vw;
   border: 1px solid grey;
   box-shadow: 4px 4px 4px 4px grey;
   background-color: rgba(255, 255, 255, 0.5);
   margin: 4vw;
   margin-left: 9vw;
+  overflow-y: auto;
 }
 
 .resume-title {
