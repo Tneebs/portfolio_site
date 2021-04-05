@@ -68,22 +68,33 @@
   margin-top: auto;
 }
 
+.footer-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 26vw;
+}
+
 img.mediaLinks-logo {
   display: flex;
   justify-content: center;
-  height: 10vh;
+  height: 8vh;
 }
 
 /* PORTFOLIO PAGE */
 
-.portfolio-container-1 {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.portfolio-container {
   margin: auto;
   margin-top: 40px;
   width: 90%;
-  height: 220vh;
+  height: 20vh;
+}
+
+.portfolio-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15vh;
+  overflow-y: auto;
 }
 
 .project-card {
@@ -94,6 +105,13 @@ img.mediaLinks-logo {
   width: 25vw;
   height: 90vh;
   box-shadow: 4px 4px 6px 4px grey;
+  background-color: white;
+}
+
+.project-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .overview {
@@ -108,6 +126,42 @@ img.mediaLinks-logo {
 
 .repo-container-double {
   display: flex;
+}
+
+.jumbo-project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  opacity: 85%;
+  box-shadow: 3px 3px 4px 3px grey;
+}
+
+.jumbo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.vid-overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-main-vid {
+  border-radius: 6px 6px 6px 6px;
+}
+
+.project-overview {
+  display: flex;
+  width: 50vw;
+}
+
+.project-main-overview {
+  display: flex;
+  align-items: flex-end;
+  width: 40vw;
 }
 
 /* BLOG PAGE */
@@ -131,7 +185,6 @@ img.mediaLinks-logo {
   display: flex;
   flex-direction: column;
   width: 20vw;
-  height: auto;
   border: 2px solid white;
   border-radius: 4px 4px 4px 4px;
   box-shadow: 4px 4px 6px 4px grey;
@@ -168,7 +221,7 @@ img.mediaLinks-logo {
   height: 200vh;
 }
 
-.jumbo-container {
+.jumbo-blog-container {
   display: flex;
   flex-direction: column;
   justify-content: center;

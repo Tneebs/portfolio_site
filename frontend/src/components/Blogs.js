@@ -15,7 +15,7 @@ const Blogs = () => {
       <div className='blog-page'>
       <h1>Blogs</h1>
       <br/>
-      <Jumbotron className='jumbo-container'>
+      <Jumbotron className='jumbo-blog-container'>
         <h1 className='main-blog-title'>Stepping into Redux from React Pt.3</h1>
         <br/>
         <div className='img-body'>
