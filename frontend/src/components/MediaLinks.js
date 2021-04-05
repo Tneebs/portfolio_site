@@ -12,6 +12,7 @@ const MediaLinks = () => {
 
     return(
         <div className="footer-container">
+            <div className='footer-row'>
             
                 <a href="https://www.linkedin.com/in/tedneben/">
                     <img className="mediaLinks-logo" alt="linkedin-logo" src={LinkedIn} />
@@ -33,10 +34,10 @@ const MediaLinks = () => {
                     <img className="mediaLinks-logo" alt="youtube-logo" src={YouTube} />
                 </a>
 
-                <a href="">
+                {/* <a href="">
                     <img className="mediaLinks-logo" alt="resume-logo" src={GoogleDocs} />
-                </a>
-
+                </a> */}
+            </div>
         </div>
     )
 }
