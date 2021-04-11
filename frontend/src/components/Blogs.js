@@ -13,8 +13,8 @@ const Blogs = () => {
   return (
     <div className='blog-container'>
       <div className='blog-page'>
-      <h1>Blogs</h1>
-      <br/>
+        <br/>
+        <br/>
       <Jumbotron className='jumbo-blog-container'>
         <h1 className='main-blog-title'>Stepping into Redux from React Pt.3</h1>
         <br/>
@@ -53,7 +53,7 @@ const Blogs = () => {
         <div className='blog-card'>
           <a href="https://tedneben.medium.com/beginning-bootcamp-bonds-6afd56734973">
             <h2 className='blog-card-title'>Beginning Bootcamp Bonds</h2>
-            <img className='blog-card-img' alt='redux3-img' src={Bonding} />
+            <img className='blog-card-img-2' alt='redux3-img' src={Bonding} />
           </a>
         </div>
 
