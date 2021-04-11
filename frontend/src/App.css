@@ -86,7 +86,7 @@ img.mediaLinks-logo {
   margin: auto;
   margin-top: 40px;
   width: 90%;
-  height: 20vh;
+  height: 190vh;
 }
 
 .portfolio-page {
@@ -121,7 +121,17 @@ img.mediaLinks-logo {
 }
 
 .project-vid {
+  display: flex;
   border-radius: 15px 15px 0px 0px;
+}
+
+.project-main-title {
+  width: 50vw;
+}
+
+.repo-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .repo-container-double {
@@ -151,16 +161,18 @@ img.mediaLinks-logo {
 
 .project-main-vid {
   border-radius: 6px 6px 6px 6px;
+  height: 35vh;
 }
 
-.project-overview {
+.title-overview {
   display: flex;
+  flex-direction: column;
   width: 50vw;
 }
 
 .project-main-overview {
   display: flex;
-  align-items: flex-end;
+  align-content: center;
   width: 40vw;
 }
 
@@ -184,7 +196,9 @@ img.mediaLinks-logo {
 .blog-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 20vw;
+  height: 50vh;
   border: 2px solid white;
   border-radius: 4px 4px 4px 4px;
   box-shadow: 4px 4px 6px 4px grey;
@@ -204,12 +218,17 @@ img.mediaLinks-logo {
 
 .blog-card-title {
   font-size: 25px;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .blog-card-img {
   width: 18vw;
+  margin: 10px;
+}
+
+.blog-card-img-2 {
+  width: 18vw;
+  height: 22vh;
   margin: 10px;
 }
 
@@ -240,10 +259,37 @@ img.mediaLinks-logo {
   width: 50vw;
 }
 
+/* About Page */
+
+.about-container {
+  height: 120vh;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  width: 80vw;
+  border: 1px solid grey;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 1px 1px rgb(125, 148, 119);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 4vw;
+  margin-left: 9vw;
+  overflow-y: auto;
+}
+
+.about-img {
+  height: 45vh;
+  width: 30vw;
+  margin: 37px; 
+  margin-top: 35px;
+}
+
 /* Resume Page */
 
 .resume-container {
-  height: 100vh;
+  height: 120vh;
 }
 
 .resume-page {
@@ -252,7 +298,8 @@ img.mediaLinks-logo {
   height: 95vh;
   width: 80vw;
   border: 1px solid grey;
-  box-shadow: 4px 4px 4px 4px grey;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 2px 2px grey;
   background-color: rgba(255, 255, 255, 0.5);
   margin: 4vw;
   margin-left: 9vw;

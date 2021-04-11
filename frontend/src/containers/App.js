@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
 import Resume from "../components/Resume";
+import About from '../components/About';
 
 import {
   Switch,
@@ -26,6 +27,10 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+
+            <Route exact path='/about'>
+              <About />
             </Route>
 
             <Route path="/portfolio">

@@ -9,36 +9,32 @@ const Portfolio = () => {
     <>
     <div className='portfolio-container'>
       <div classNAme='portfolio-page'>
-          <h1 className='page-title'>Projects</h1>
     <div className='jumbo-container'>
       <Jumbotron className='jumbo-project-container'>
-          <h1 className='title'>MPloy!</h1>
-          <div className='vid-overview'>
             <div className='project-vid'>
               <iframe
               className='project-main-vid'
               title='MPloy!'
               src='https://www.youtube.com/embed/cUdRhZERVq0'
               frameBorder='0' allowFullScreen/>
-            </div>
-            <div className='project-overview'>
+            <div className='title-overview'>
+              <h1 className='project-main-title'>MPloy!</h1>
               <p className='project-main-overview'>
                 MPloy is an application that allows employees to make requests to their managers 
                 and view a profile page of their requests.
               </p>
             </div>
-          </div>
+            </div>
 
-          <h3>Technology Stack</h3>
-          <p className='stack'>Ruby on Rails <br/> Bootstrap</p>
-
-          <div className='repo-container'>
-            <a href='https://github.com/gocoog/Mod2-project' alt='Github: Tneebs'>
-              <div className='repo'>
-                <img height='50' src={github} alt='Github'/>
-              </div>
-            </a>
-          </div>
+            <div className='repo-container'>
+              <h3>Technology Stack</h3>
+              <p className='stack'>Ruby on Rails <br/> Bootstrap</p>
+              <a href='https://github.com/gocoog/Mod2-project' alt='Github: Tneebs'>
+            <div className='repo'>
+              <img height='50' src={github} alt='Github'/>
+            </div>
+              </a>
+            </div>
 
       </Jumbotron>
     </div>

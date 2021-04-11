@@ -16,6 +16,7 @@ const NavLinks = (props) => {
                         alt=""
                     />
                 </Navbar.Brand>
+                <Navbar.Brand href='/about'>About Me</Navbar.Brand>
                 <Navbar.Brand href='/portfolio'>Portfolio</Navbar.Brand>
                 <Navbar.Brand href='/blogs'>Blogs</Navbar.Brand>
                 <Navbar.Brand href='/resume'>Resume</Navbar.Brand>
