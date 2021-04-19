@@ -14,15 +14,28 @@ const Resume = () => {
           <br/>
           <h2>Technical Skills</h2>
           <br/>
-          <h4 className='tech-skills'>HTML, CSS, Ruby on Rails, JavaScript, React, SQL, mySQL, postgreSQL, Photoshop, Illustrator, Lightroom</h4>
-          
+          <div className='skills-container'>
+            <h4 className='tech-skills'>◆ HTML</h4>
+            <h4 className='tech-skills'>◆ CSS</h4>
+            <h4 className='tech-skills'>◆ Ruby on Rails</h4>
+            <h4 className='tech-skills'>◆ JavaScript</h4>
+            <h4 className='tech-skills'>◆ React</h4>
+            <h4 className='tech-skills'>◆ SQL</h4>
+            <h4 className='tech-skills'>◆ mySQL</h4>
+            <h4 className='tech-skills'>◆ postgreSQL</h4>
+            <h4 className='tech-skills'>◆ Photoshop</h4>
+            <h4 className='tech-skills'>◆ Illustrator</h4>
+            <h4 className='tech-skills'>◆ Lightroom</h4>
+          </div>
           <br/>
           <br/>
           
           <h2>Techincal Projects</h2>
           <br/>
-          <h3 className='project-title'>Portfoli-U - <a href="https://github.com/Tneebs/Portfoli-U">Github</a> | <a href="https://www.youtube.com/watch?v=DumBp8l2R6A">Demo</a></h3>
-          <h4 className='project-desc'>A social project management tool</h4>
+          <div className='project-header'>
+            <h3 className='project-title'>Portfoli-U - <a href="https://github.com/Tneebs/Portfoli-U">Github</a> | <a href="https://www.youtube.com/watch?v=DumBp8l2R6A">Demo</a></h3>
+            <em><h4 className='project-desc'>A social project management tool</h4></em>
+          </div>
             <div className='project-bullets'>
               <p className='bullets'>◆ Utilized JSON Web Tokens and localStorage to store encrypted user information client-side</p>
               <p className='bullets'>◆ Optimized user experience by integrating Material-UI to work with class and functional components</p>
@@ -30,9 +43,10 @@ const Resume = () => {
               <p className='bullets'>◆ Established a means to manage projects while displaying a user’s information</p>
             </div>
             <br/>
-
-          <h3 className='project-title'>Tactics Lite - <a href="https://github.com/Tneebs/Tactics-Lite">Github</a> | <a href="https://www.youtube.com/watch?v=A7PIuR2VSYE">Demo</a></h3>
-          <h4 className='project-desc'>Tactical Game setup for two users to battle one another in a turn-based fighting style</h4>
+          <div className='project-header'>
+            <h3 className='project-title'>Tactics Lite - <a href="https://github.com/Tneebs/Tactics-Lite">Github</a> | <a href="https://www.youtube.com/watch?v=A7PIuR2VSYE">Demo</a></h3>
+            <h4 className='project-desc'>Tactical Game setup for two users to battle one another in a turn-based fighting style</h4>
+          </div>
             <div className='project-bullets'>
               <p className='bullets'>◆ Applied AGILE methods into my project team’s approach to everyday tasks</p>
               <p className='bullets'>◆ Utilized conditionals throughout code for emphasis on user experience</p>
@@ -40,8 +54,10 @@ const Resume = () => {
             </div>
             <br/>
 
-          <h3 className='project-title'>MPloy! - <a href="https://github.com/Tneebs/MPloy">Github</a> | <a href="https://www.youtube.com/watch?v=cUdRhZERVq0">Demo</a></h3>
-          <h4 className='project-desc'>An employee/manager relationship app designed to handle time off requests</h4>
+          <div className='project-header'>
+            <h3 className='project-title'>MPloy! - <a href="https://github.com/Tneebs/MPloy">Github</a> | <a href="https://www.youtube.com/watch?v=cUdRhZERVq0">Demo</a></h3>
+            <h4 className='project-desc'>An employee/manager relationship app designed to handle time off requests</h4>
+          </div>
             <div className='project-bullets'>
               <p className='bullets'>◆ Enforced validations in the backend to create a more concise user experience</p>
               <p className='bullets'>◆ Created custom logos and theme, through Photoshop, to create a branded atmosphere</p>

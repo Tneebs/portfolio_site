@@ -149,11 +149,6 @@ img.mediaLinks-logo {
   box-shadow: 3px 3px 4px 3px grey;
 }
 
-.jumbo-container {
-  display: flex;
-  justify-content: center;
-}
-
 .vid-overview {
   display: flex;
   justify-content: space-between;
@@ -266,17 +261,19 @@ img.mediaLinks-logo {
 }
 
 .about-page {
-  display: flex;
-  flex-direction: row;
+  display: flow-root;
   height: 95vh;
   width: 80vw;
   border: 1px solid grey;
   border-radius: 5px 5px 5px 5px;
-  box-shadow: 1px 1px 1px 1px rgb(125, 148, 119);
-  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: rgba(255, 255, 255, 0.623);
   margin: 4vw;
   margin-left: 9vw;
-  overflow-y: auto;
+}
+
+.typical-start {
+  margin-top: 60px;
 }
 
 .about-img {
@@ -284,6 +281,12 @@ img.mediaLinks-logo {
   width: 30vw;
   margin: 37px; 
   margin-top: 35px;
+  float: left;
+}
+
+.about-body {
+  text-align: justify;
+  margin: 45px 37px 30px 37px;
 }
 
 /* Resume Page */
@@ -315,9 +318,23 @@ img.mediaLinks-logo {
   margin: 0 auto;
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 30vh;
+  align-items: flex-end;
+}
+
 .tech-skills {
-  width: 50vw;
+  width: 40vw;
   margin: 0 auto;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
 }
 
 .project-title {
@@ -325,12 +342,18 @@ img.mediaLinks-logo {
 }
 
 .project-desc {
-  width: 37vw;
+  width: 80vw;
 }
 
 .project-bullets {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+.bullets {
+  margin-left: 10vw;
+  margin-top: 1vh;
 }
 
 .job-name {
@@ -341,12 +364,50 @@ img.mediaLinks-logo {
 
 /* Contact Page */
 
-.contact-form {
+.contact-page {
+  height: 110vh;
+}
+
+.contact-container {
   display: flex;
   flex-direction: column;
+  height: 80vh;
   width: 50vw;
   margin: 0 auto;
   margin-top: 5vh;
-  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 2px 1px grey;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
+.contact-name {
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 3vh;
+  color: white;
+}
+
+.contact-email {
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 3vh;
+  color: white;
+}
+
+.contact-subject {
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 3vh;
+  color: white;
+}
+
+.contact-message {
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: 3vh;
+  color: white;
+}
+
+.contact-btn {
+  margin-top: 2vh;
+}
