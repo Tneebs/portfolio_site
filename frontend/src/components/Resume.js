@@ -1,11 +1,15 @@
 import React from "react";
+import Google from "../images/GoogleDocs.png"
 
 const Resume = () => {
   return (
     <div className='resume-container'>
       <div className='resume-page'>
 
-          <h1 className='resume-title'>Software Engineer</h1>
+          <div className='resume-download'>
+            <h1 className='resume-title'>Software Engineer</h1>
+            <img src={Google} alt='resume-download' className='download'/>
+          </div>
           <p>________________________________________________________________________________________________________________________</p>
           <p className='resume-bio'><strong>Experienced in Ruby on Rails and JavaScript based programming with a background in business management
            and ownership. Possess strong skills in team leading and an innovative initiative that helps growing and 
@@ -34,7 +38,7 @@ const Resume = () => {
           <br/>
           <div className='project-header'>
             <h3 className='project-title'>Portfoli-U - <a href="https://github.com/Tneebs/Portfoli-U">Github</a> | <a href="https://www.youtube.com/watch?v=DumBp8l2R6A">Demo</a></h3>
-            <em><h4 className='project-desc'>A social project management tool</h4></em>
+            <em><h4 className='project-desc-portfoliu'>A social project management tool</h4></em>
           </div>
             <div className='project-bullets'>
               <p className='bullets'>◆ Utilized JSON Web Tokens and localStorage to store encrypted user information client-side</p>
@@ -70,16 +74,22 @@ const Resume = () => {
 
           <h2>Experience</h2>
           <br/>
-
-          <span className='job-name'><h3><strong>WeSO, LLC.</strong></h3><h4>Houston, TX (04/2018 - Present)</h4></span>
+          <div className='job-name'>
+            <h3><strong>WeSO, LLC.</strong></h3>
+            <h4>Houston, TX (04/2018 - Present)</h4>
+          </div>
           <h4 className='job-desc'>Co-Owner of e-commerce drop shipping company</h4>
             <div className='job-bullets'>
               <p className='bullets'>◆ Increased awareness for brand through innovative marketing strategies and customer interactions</p>
               <p className='bullets'>◆ Manage finances and create ad spend budgets based on A/B testing results</p>
               <p className='bullets'>◆ Create original merchandise designs, execute studio photo shoots, write marketing copy</p>
             </div>
+            <br/>
 
-            <span className='job-name'><h3><strong>joeToga</strong></h3><h4>Houston, TX (04/2013 - 05/2018)</h4></span>
+            <div className='job-name'>
+              <h3><strong>joeToga</strong></h3>
+              <h4>Houston, TX (04/2013 - 05/2018)</h4>
+            </div>
             <h4 className='job-desc'>Co-Owner of a Fraternity and Sorority Greek Store</h4>
               <div className='job-bullets'>
                 <p className='bullets'>◆ Devolved new line of business through screen printing and embroidery and increased sales by 20% in the first year</p>
@@ -93,13 +103,20 @@ const Resume = () => {
           <h2>Education</h2>
           <br/>
 
-          <span className='school-name'><h3><strong>Flatiron School</strong></h3><h4>Houston, TX (07/2020 - 10/2020)</h4></span>
-          <h4 className='education-desc'>Full Stack Web Development, Ruby on Rails, and JavaScript Programs</h4>
+          <div className='school-name'>
+            <h3><strong>Flatiron School</strong></h3>
+            <h4>Houston, TX (07/2020 - 10/2020)</h4>
+          </div>
+          <h4 className='education-desc'>◆ Full Stack Web Development, Ruby on Rails, and JavaScript Programs</h4>
           <br/>
-          <span className='school-name'><h3><strong>Houston Baptist University</strong></h3><h4>Houston, TX (08/2011 - 12/2011)</h4></span>
-          <h4 className='education-desc'>Coursework completed towards BA/BS in Biology</h4>
+
+          <div className='school-name'>
+            <h3><strong>Houston Baptist University</strong></h3>
+            <h4>Houston, TX (08/2011 - 12/2011)</h4>
+          </div>
+          <h4 className='education-desc-2'>◆ Coursework completed towards BA/BS in Biology</h4>
           <br/>
-          <br/>
+
       </div>
     </div>
   )

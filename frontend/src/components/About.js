@@ -11,7 +11,7 @@ const About = () => {
 
                 <h2 className='typical-start'>
                     <Typical 
-                        loop={10}
+                        loop={Infinity}
                         wrapper="em"
                         steps={[
                             'Dedicated',
