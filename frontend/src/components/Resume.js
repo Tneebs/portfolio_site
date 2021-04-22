@@ -5,12 +5,13 @@ const Resume = () => {
   return (
     <div className='resume-container'>
       <div className='resume-page'>
-
           <div className='resume-download'>
             <h1 className='resume-title'>Software Engineer</h1>
-            <img src={Google} alt='resume-download' className='download'/>
+            <a href="https://drive.google.com/uc?id=1vBBmzArjLeM1p8gSFiUwOtfFAkybCEiV&export=download">
+              <img src={Google} alt='resume-download' className='download'/>
+            </a>
           </div>
-          <p>________________________________________________________________________________________________________________________</p>
+          <p className='resume-line'>________________________________________________________________________________________________________________________</p>
           <p className='resume-bio'><strong>Experienced in Ruby on Rails and JavaScript based programming with a background in business management
            and ownership. Possess strong skills in team leading and an innovative initiative that helps growing and 
            established companies drive positive work environments and efficient results. Adaptable personality to set 

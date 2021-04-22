@@ -1,7 +1,13 @@
+@font-face {
+  src: url(fonts/PlayfairDisplay-Medium.ttf);
+  font-family: modernking;
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
+  font-family: modernking;
 }
 
 .App-logo {
@@ -43,12 +49,12 @@
   height: 10vh;
 }
 
+/* NAVBAR */
+
 .navlinks-container {
   display: flex;
   justify-content: space-around;
 }
-
-/* NAVBAR */
 
 .navbar-links {
   display: flex;
@@ -298,7 +304,7 @@ img.mediaLinks-logo {
   width: 80vw;
   border: 1px solid grey;
   border-radius: 5px 5px 5px 5px;
-  box-shadow: 1px 1px 1px 1px grey;
+  box-shadow: 2px 1px 10px 2px grey;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 4vw;
   margin-left: 9vw;
@@ -320,7 +326,7 @@ img.mediaLinks-logo {
 .about-body {
   text-align: justify;
   margin: 45px 37px 30px 37px;
-  font-size: 1.55vw;;
+  font-size: 1.5vw;;
 }
 
 /* Resume Page */
@@ -341,6 +347,10 @@ img.mediaLinks-logo {
   margin: 4vw;
   margin-left: 9vw;
   overflow-y: auto;
+}
+
+.resume-line {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .resume-title {
