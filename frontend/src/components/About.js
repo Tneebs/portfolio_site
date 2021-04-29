@@ -43,7 +43,7 @@ const About = () => {
                     is my approach to making a mark on this world.
                 </p>
             </div>
-
+            <div className='break-line'/>
         </div>
     )
 }

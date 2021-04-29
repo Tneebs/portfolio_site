@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../styling/App.css";
 import Footer from "./Footer";
 import Header from './Header';
 import Blogs from "../components/Blogs";
@@ -8,6 +8,11 @@ import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
 import Resume from "../components/Resume";
 import About from '../components/About';
+import "../styling/aboutme.css"
+import "../styling/blogs.css"
+import "../styling/portfolio.css"
+import "../styling/resume.css"
+import "../styling/contact.css"
 
 import {
   Switch,

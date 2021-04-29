@@ -3,11 +3,11 @@ import NavLinks from '../components/NavLinks';
 
 const Header = (props) => {
     return (
-        <div className='header'>
+        <>
 
             <NavLinks />
 
-        </div>
+        </>
     )
 }
 

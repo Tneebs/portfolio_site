@@ -8,10 +8,10 @@ import Button from "react-bootstrap/Button";
 const Portfolio = () => {
   return (
     <>
-      <div className="portfolio-container">
-        <div className="portfolio-page">
+        <div className='portfolio-page'>
           <Jumbotron className="jumbo-project-container">
               <div className="project-vid">
+                <h1 className="project-main-title">MPloy!</h1>
                 <iframe
                   className="project-main-vid"
                   title="MPloy!"
@@ -21,26 +21,19 @@ const Portfolio = () => {
                 />
 
                 <div className="repo-container">
-                  <h3>Technology Stack</h3>
-                  <p className="stack">
-                    <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='first-badge'/> 
-                    <br/> 
-                    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap_badge" className='second-badge'/>
-                  </p>
+                  <h3 className='tech-stack'>Technology Stack</h3>
+                    <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='rails-main-badge'/> 
+                    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap_badge" className='bootstrap-main-badge'/>
                   <a
-                    href="https://github.com/gocoog/Mod2-project"
+                    href="https://github.com/Tneebs/MPloy"
                     alt="Github: Tneebs"
                   >
-                    <div className="repo">
-                      <img height="50" src={github} alt="Github" />
-                    </div>
+                    <img className='github-repo' height="50" src={github} alt="Github" />
                   </a>
                 </div>
               </div>
 
-
               <div className="title-overview">
-                <h1 className="project-main-title">MPloy!</h1>
                 <p className="project-main-overview">
                   MPloy is an application that allows employees to make requests
                   to their managers and view a profile page of their requests.
@@ -48,16 +41,9 @@ const Portfolio = () => {
                 <img className='project-screenshot' src={MPloy} />
               </div>
 
-            {/* <div className='repo-container'>
-              <h3>Technology Stack</h3>
-              <p className='stack'>Ruby on Rails <br/> Bootstrap</p>
-              <a href='https://github.com/gocoog/Mod2-project' alt='Github: Tneebs'>
-            <div className='repo'>
-              <img height='50' src={github} alt='Github'/>
-            </div>
-              </a>
-            </div> */}
           </Jumbotron>
+
+          <div className='portfolio-break' />
 
           <div className="project-card-row">
             {/* <div className='project-card'>
@@ -92,7 +78,7 @@ const Portfolio = () => {
 
             <div className="project-card">
               <iframe
-                className="project-vid"
+                className="project-tactics-vid"
                 title="Tactics Lite"
                 src="https://www.youtube.com/embed/A7PIuR2VSYE"
                 frameBorder="0"
@@ -109,25 +95,24 @@ const Portfolio = () => {
               </div>
 
               <div className="technology">
-                <h3>Technology Stack</h3>
-                  <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='first-badge'/> 
+                <h3 className='tech-stack-title'>Technology Stack</h3>
+                  <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='rails-badge'/> 
                   <br/>
-                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js_badge" className='second-badge'/>
-                  <br/>
-                  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jquery_badge" className='third-badge'/>
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js_badge" className='js-badge'/>
+                  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jquery_badge" className='jquery-badge'/>
               </div>
               
               <br/>
-              <div className="repo-container">
+
+              <div className="tactics-repo">
                 <a
                   href="https://github.com/Tneebs/Tactics-Lite"
                   alt="Github: Tneebs"
                 >
-                  <div className="repo">
-                    <img height="50" src={github} alt="Github" />
-                  </div>
+                    <img height="50" src={github} alt="Github" className='portfolio-tactics-github' />
                 </a>
               </div>
+
             </div>
 
             <div className="project-card">
@@ -149,27 +134,25 @@ const Portfolio = () => {
               </div>
 
               <div className="technology">
-                <h3>Technology Stack</h3>
-                  <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='first-badge'/>
+                <h3 className='tech-stack-title'>Technology Stack</h3>
+                  <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='rails-badge'/>
                   <br/>
-                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js_badge" className='second-badge'/>
-                  <br/> 
-                  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-badge" className='third-badge'/>
-                  <br/>
-                  <img src="https://img.shields.io/badge/JWT Auth-blue" alt="jwt-badge" className='fourth-badge'/>
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js_badge" className='js-badge'/>
+                  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-badge" className='react-badge'/>
+                  <img src="https://img.shields.io/badge/JWT Auth-blue" alt="jwt-badge" className='jwt-badge'/>
               </div>
               <br/>
 
-              <div className="repo-container">
+              <div className="portfoliu-repo">  
                 <a
                   href="https://github.com/Tneebs/Portfoli-U"
                   alt="Github: Tneebs"
                 >
-                  <div className="repo-portfoliu">
-                    <img height="50" src={github} alt="Github" />
-                  </div>
+                    <img height="50" src={github} alt="Github" className='portfolio-github' />
                 </a>
               </div>
+
+
             </div>
 
             <div className="project-card">
@@ -191,43 +174,35 @@ const Portfolio = () => {
               </div>
 
               <div className="technology">
-                <h3>Technology Stack</h3>
-                  <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='first-badge'/>
+                <h3 className='tech-stack-title'>Technology Stack</h3>
+                  <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails_badge" className='rails-badge'/>
                   <br/>
-                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js_badge" className='second-badge'/>
-                  <br/>
-                  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-badge" className='third-badge'/>
-                  <br/>
-                  <img src="https://img.shields.io/badge/JWT Auth-blue" alt="jwt-badge" className='fourth-badge'/>
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js_badge" className='js-badge'/>
+                  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-badge" className='react-badge'/>
+                  <img src="https://img.shields.io/badge/JWT Auth-blue" alt="jwt-badge" className='jwt-badge'/>
               </div>
 
-              <div className="repo-container-double">
-                Frontend
-                <a
+                {/* <a
                   href="https://github.com/Tneebs/ToughFlix_Mod4_FE"
                   alt="Github:Tneebs"
                 >
-                  <div className="repo">
+                  <div className="toughflix-repo">
                     <img height="50" src={github} alt="Github" />
                   </div>
-                </a>
-                Backend
+                </a> */}
+                <div className="toughflix-repo">
                 <a
                   href="https://github.com/Tneebs/ToughFlix_Mod4"
                   alt="Github:Tneebs"
                 >
-                  <div className="repo">
-                    <img height="50" src={github} alt="Github" />
-                  </div>
+                    <img height="50" src={github} alt="Github" className='portfolio-github' />
                 </a>
-              </div>
+                </div>
             </div>
           </div>
+
+          <div className='portfolio-break' />
         </div>
-        <br/>
-        <br/>
-        <br/>
-      </div>
     </>
   );
 };

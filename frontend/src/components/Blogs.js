@@ -12,7 +12,6 @@ import Button from 'react-bootstrap/Button'
 const Blogs = () => {
   return (
     <div className='blog-container'>
-      <div className='blog-page'>
         <br/>
         <br/>
       <Jumbotron className='jumbo-blog-container'>
@@ -30,7 +29,7 @@ const Blogs = () => {
         </p>
         </div>
         <a href='https://tedneben.medium.com/stepping-into-redux-from-react-pt-3-4c81d7651f3e'>
-          <p><Button variant="primary">Read More</Button></p>
+          <Button variant="primary" className='main-blog-btn'>Read More</Button>
         </a>
       </Jumbotron>
 
@@ -79,8 +78,7 @@ const Blogs = () => {
         </div>
 
       </div>
-
-      </div>
+      <div className='blog-break'/>
     </div>
   )
 };

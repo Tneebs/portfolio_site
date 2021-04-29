@@ -1,0 +1,101 @@
+/* About Page */
+
+.about-container {
+    height: 100vh;
+  }
+  
+  .about-page {
+    display: flow-root;
+    width: 80vw;
+    border: 1px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 10px 2px grey;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 4vw;
+    margin-left: 9vw;
+  }
+  
+  .typical-start {
+    margin-top: 60px;
+  }
+  
+  .about-img {
+    height: 45vh;
+    width: 30vw;
+    margin: 37px; 
+    margin-top: 35px;
+    float: left;
+    border-radius: 6px 6px 6px 6px;
+  }
+  
+  .about-body {
+    text-align: justify;
+    margin: 45px 37px 30px 37px;
+    font-size: 1.5vw;
+  }
+
+  .break-line {
+      padding: 1vh;
+  }
+
+  /* Media Queries */
+
+  /* Mobile Response */ 
+
+  @media (orientation: portrait) and (max-height: 1200px) {
+      .about-img {
+          height: 25vh;
+          width: 70vw;
+      }
+      .about-body {
+          margin: 15px;
+          font-size: 4vw;
+      }
+      .about-page {
+          width: 90vw;
+          margin: 10px auto;
+          margin-top: 42px;
+      }
+      .typical-start {
+          margin-top: 20px;
+      }
+      .break-line {
+          padding: 4.5vh;
+      }
+  }
+
+  /* iPad Response */
+
+  @media (orientation: portrait) and (min-height: 1300px) {
+    .about-img {
+        height: 30vh;
+        width: 42vw;
+    }
+    .about-body {
+        margin: 15px;
+        font-size: 3vw;
+    }
+    .about-container {
+        height: 30vh;
+        padding-top: 3vh;
+    }
+    .about-page {
+        width: 90vw;
+        margin: 10px auto;
+    }
+    .typical-start {
+        font-size: 5vw;
+        padding: 10px;
+    }
+    .break-line {
+        padding: 5vh;
+    }
+  }
+
+  /* L-Laptop Response */
+
+  @media (orientation: landscape) and (max-width: 1500px) {
+    .break-line {
+        padding: 3vh;
+    }
+}
