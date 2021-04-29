@@ -1,0 +1,70 @@
+/* Contact Page */
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 45vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px 2px whitesmoke;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+  }
+
+  .contact-title {
+    font-size: 3vw;
+    margin-top: 2vh;
+    flex-grow: 1;
+  }
+  
+  .contact-name {
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-size: 2vw;
+    color: white;
+    flex-grow: 1;
+  }
+  
+  .contact-email {
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-size: 2vw;
+    color: white;
+    flex-grow: 1;
+  }
+  
+  .contact-subject {
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-size: 2vw;
+    color: white;
+    flex-grow: 1;
+  }
+  
+  .contact-message {
+    width: 35vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-size: 2vw;
+    color: white;
+    flex-grow: 1;
+  }
+  
+  .contact-btn {
+    margin-top: 3vh;
+    width: 6vw;
+    flex-grow: 1;
+  }
+  
+  

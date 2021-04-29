@@ -18,7 +18,7 @@ function sendEmail(e) {
   return (
     <div className='contact-page'>
       <br/>
-      <h1>Contact Me!</h1>
+      <h1 className='contact-title'>Contact Me!</h1>
 
       <div className='contact-container'>
         {/* <form className="contact-form" onSubmit={sendEmail}>

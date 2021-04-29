@@ -11,11 +11,12 @@ const Resume = () => {
               <img src={Google} alt='resume-download' className='download'/>
             </a>
           </div>
-          <p className='resume-line'>________________________________________________________________________________________________________________________</p>
+          <p className='resume-line'>___________________________________________________________________________________________________________________________________________</p>
           <p className='resume-bio'><strong>Experienced in Ruby on Rails and JavaScript based programming with a background in business management
            and ownership. Possess strong skills in team leading and an innovative initiative that helps growing and 
            established companies drive positive work environments and efficient results. Adaptable personality to set 
            up success for everyone around.</strong></p>
+          <br/>
           <br/>
           <h2>Technical Skills</h2>
           <br/>
@@ -38,7 +39,7 @@ const Resume = () => {
           <h2>Techincal Projects</h2>
           <br/>
           <div className='project-header'>
-            <h3 className='project-title'>Portfoli-U - <a href="https://github.com/Tneebs/Portfoli-U">Github</a> | <a href="https://www.youtube.com/watch?v=DumBp8l2R6A">Demo</a></h3>
+            <h3 className='project-title-portfoliu'>Portfoli-U - <a href="https://github.com/Tneebs/Portfoli-U">Github</a> | <a href="https://www.youtube.com/watch?v=DumBp8l2R6A">Demo</a></h3>
             <em><h4 className='project-desc-portfoliu'>A social project management tool</h4></em>
           </div>
             <div className='project-bullets'>
@@ -49,8 +50,8 @@ const Resume = () => {
             </div>
             <br/>
           <div className='project-header'>
-            <h3 className='project-title'>Tactics Lite - <a href="https://github.com/Tneebs/Tactics-Lite">Github</a> | <a href="https://www.youtube.com/watch?v=A7PIuR2VSYE">Demo</a></h3>
-            <h4 className='project-desc'>Tactical Game setup for two users to battle one another in a turn-based fighting style</h4>
+            <h3 className='project-title-tactics'>Tactics Lite - <a href="https://github.com/Tneebs/Tactics-Lite">Github</a> | <a href="https://www.youtube.com/watch?v=A7PIuR2VSYE">Demo</a></h3>
+            <h4 className='project-desc-tactics'>Tactical Game setup for two users to battle one another in a turn-based fighting style</h4>
           </div>
             <div className='project-bullets'>
               <p className='bullets'>◆ Applied AGILE methods into my project team’s approach to everyday tasks</p>
@@ -60,8 +61,8 @@ const Resume = () => {
             <br/>
 
           <div className='project-header'>
-            <h3 className='project-title'>MPloy! - <a href="https://github.com/Tneebs/MPloy">Github</a> | <a href="https://www.youtube.com/watch?v=cUdRhZERVq0">Demo</a></h3>
-            <h4 className='project-desc'>An employee/manager relationship app designed to handle time off requests</h4>
+            <h3 className='project-title-mploy'>MPloy! - <a href="https://github.com/Tneebs/MPloy">Github</a> | <a href="https://www.youtube.com/watch?v=cUdRhZERVq0">Demo</a></h3>
+            <h4 className='project-desc-mploy'>An employee/manager relationship app designed to handle time off requests</h4>
           </div>
             <div className='project-bullets'>
               <p className='bullets'>◆ Enforced validations in the backend to create a more concise user experience</p>
