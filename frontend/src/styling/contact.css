@@ -12,7 +12,7 @@
     height: 70vh;
     width: 45vw;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-bottom: 12vh;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 2px 2px 4px 2px whitesmoke;
     background-color: rgba(0, 0, 0, 0.8);
@@ -21,7 +21,6 @@
 
   .contact-title {
     font-size: 3vw;
-    margin-top: 2vh;
     flex-grow: 1;
   }
   
