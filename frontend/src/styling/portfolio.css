@@ -159,6 +159,7 @@
  
   .rails-badge {
     width: 8vw;
+    height: 3.5vh;
     margin-top: 20px;
     margin-bottom: -18px;
     flex-grow: 1,
@@ -295,7 +296,7 @@
       .portfolio-break {
         display: flex;
         flex-grow: 1;
-        padding-top: 95vh;
+        padding-top: 100vh;
       }
 
       .overview {

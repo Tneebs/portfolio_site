@@ -1,0 +1,502 @@
+/* Resume Page */
+
+.resume-container {
+    height: 120vh;
+  }
+  
+  .resume-page {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 80vw;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px 2px whitesmoke;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 4vw;
+    margin-left: 9vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+ 
+  .resume-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .download {
+    height: 15vh;
+    margin-top: 5vh;
+    margin-left: 65vw;
+  }
+  
+  .resume-line {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .resume-title {
+    margin-top: 5vh;
+    font-size: 3.5vw;
+  }
+  
+  .resume-bio {
+    width: 55vw;
+    margin: 0 auto;
+    font-size: 1.2vw;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 55vh;
+    align-items: flex-start;
+  }
+
+  .skills-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 31vw;
+  }
+
+  .skills-title {
+    font-size: 2.5vw;
+  }
+
+  .tech-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-top: 2vh;
+  }
+
+  .tech-skills-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tech-skills-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tech-skills {
+    width: 30vw;
+    margin: 0 auto;
+    font-size: 1.3vw;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-title-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+
+  .project-title {
+    font-size: 2.5vw;
+  }
+
+  .project-header {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+  
+  .project-title-portfoliu {
+    margin-right: 45vw;
+    font-size: 1.9vw;
+  }
+  
+  .project-title-tactics {
+    margin-right: 44vw;
+    font-size: 1.9vw;
+  }
+  
+  .project-title-mploy {
+    margin-right: 47vw;
+    font-size: 1.9vw;
+  }
+  
+  .project-desc-portfoliu {
+    margin-right: 42vw;
+    margin-bottom: 2.5vh;
+    font-size: 1.5vw;
+  }
+  
+  .project-desc-tactics {
+    margin-right: 7vw;
+    margin-bottom: 2.5vh;
+    font-size: 1.5vw;
+  }
+  
+  .project-desc-mploy {
+    margin-right: 12vw;
+    margin-bottom: 2.5vh;
+    font-size: 1.5vw;
+  }
+  
+  .project-bullets {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .bullets {
+    margin-left: 10vw;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+  }
+  
+  .job-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .job-title-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+  }
+
+  .job-title {
+    font-size: 2.5vw;
+  }
+
+  .job-name {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .job-name-title {
+    font-size: 1.8vw;
+  }
+
+  .job-date {
+    font-size: 1.8vw;
+  }
+  
+  .job-desc {
+    margin-right: 35vw;
+    margin-bottom: 2.5vh;
+    font-size: 1.5vw;
+  }
+  
+  .job-bullets {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .school-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .school-title-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+  }
+
+  .school-title {
+    font-size: 2.5vw;
+  }
+  
+  .school-name {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 2vh;
+  }
+
+  .school-name-title {
+    font-size: 1.8vw;
+  }
+
+  .school-date {
+    font-size: 1.8vw;
+  }
+
+  .school-name-title-2 {
+    font-size: 1.8vw;
+  }
+
+  .school-date-2 {
+    font-size: 1.8vw;
+  }
+
+  .education-desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .education-desc {
+    margin-left: 10vw;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+  }
+  
+  .education-desc-2 {
+    margin-left: 10vw;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+  }
+  
+  /* Media Queries */
+
+@media (orientation: portrait) and (max-height: 1200px) {
+    .resume-page {
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+        width: 80vw;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 2px 2px 4px 2px whitesmoke;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        margin: 4vw;
+        margin-left: 9vw;
+        margin-top: 5vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .download {
+        height: 10vh;
+        margin-top: 5vh;
+        margin-left: 1vw;
+    }
+
+    .resume-title {
+        margin-top: 2.5vh;
+        font-size: 7vw;
+    }
+
+    .resume-bio {
+        width: 65vw;
+        margin: 0 auto;
+        font-size: 3vw;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 55vh;
+        align-items: flex-start;
+    }
+
+    .skills-header {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20vw;
+    }
+
+    .skills-title {
+        font-size: 6vw;
+    }
+
+    .tech-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10vw;
+        margin-top: 2vh;
+    }
+
+    .tech-skills-1 {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .tech-skills-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tech-skills {
+        width: 30vw;
+        margin: 0 auto;
+        font-size: 3.5vw;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-title-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+        margin-left: 2vw;
+    }
+    
+    .project-title {
+        font-size: 6vw;
+    }
+    
+    .project-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80vw;
+    }
+      
+    .project-title-portfoliu {
+        margin-right:25vw;
+        font-size: 4vw;
+    }
+      
+    .project-title-tactics {
+        margin-right: 23vw;
+        font-size: 4vw;
+    }
+      
+    .project-title-mploy {
+        margin-right: 31vw;
+        font-size: 4vw;
+    }
+      
+    .project-desc-portfoliu {
+        margin-right: 21vw;
+        margin-bottom: 2vh;
+        font-size: 3vw;
+    }
+      
+    .project-desc-tactics {
+        margin-left: 5vw;
+        margin-bottom: 2vh;
+        font-size: 3vw;
+    }
+      
+    .project-desc-mploy {
+        margin-right: 0.5vw;
+        margin-bottom: 2vh;
+        font-size: 3vw;
+    }
+      
+    .project-bullets {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 75vw;
+    }
+      
+    .bullets {
+        margin-left: 10vw;
+        margin-top: 1vh;
+        font-size: 2.5vw;
+    }
+
+    .job-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .job-title-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+    
+    .job-title {
+        font-size: 6vw;
+    }
+    
+    .job-name {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .job-name-title {
+        font-size: 3.5vw;
+    }
+    
+    .job-date {
+        font-size: 2.8vw;
+    }
+      
+    .job-desc {
+        margin-right: 1vw;
+        margin-bottom: 2.5vh;
+        font-size: 3vw;
+    }
+      
+    .job-bullets {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 75vw;
+    }
+    
+    .school-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .school-title-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+    
+    .school-title {
+        font-size: 6vw;
+    }
+      
+    .school-name {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 2vh;
+    }
+    
+    .school-name-title {
+        font-size: 3.5vw;
+    }
+    
+    .school-date {
+        font-size: 2.8vw;
+    }
+
+    .school-name-title-2 {
+        font-size: 3.5vw;
+        margin-right: 25vw;
+    }
+    
+    .school-date-2 {
+        font-size: 2.8vw;
+    }
+    
+    .education-desc-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+      
+    .education-desc {
+        margin-left: 1vw;
+        margin-top: 0.1vh;
+        font-size: 3vw;
+    }
+      
+    .education-desc-2 {
+        margin-left: 7vw;
+        margin-top: 0.1vh;
+        font-size: 3vw;
+    }
+    
+}
