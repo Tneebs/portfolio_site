@@ -18,23 +18,11 @@ function sendEmail(e) {
   return (
     <div className='contact-page'>
       <br/>
-      <h1 className='contact-title'>Contact Me!</h1>
-
+      <div className='contact-title-container'>
+        <h1 className='contact-title'>Contact Me!</h1>
+      </div>
       <div className='contact-container'>
-        {/* <form className="contact-form" onSubmit={sendEmail}>
-          <input type="hidden" name="contact_number" />
-          <label>Name</label>
-          <input type="text" name="name" />
-          <label>Email</label>
-          <input type="email" name="email" />
-          <label>Subject</label>
-          <input type="text" name="subject" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </form> */}
-
-        <Form onSubmit={sendEmail}>
+        <Form onSubmit={sendEmail} className='contact-form'>
           <Form.Group controlId="formGroupName" className='contact-name'>
             <Form.Label>Name</Form.Label>
             <Form.Control type="name" name='name'/>

@@ -258,7 +258,7 @@
     .resume-page {
         display: flex;
         flex-direction: column;
-        height: 95vh;
+        height: 100vh;
         width: 80vw;
         border-radius: 5px 5px 5px 5px;
         box-shadow: 2px 2px 4px 2px whitesmoke;
