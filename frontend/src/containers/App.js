@@ -13,6 +13,8 @@ import "../styling/blogs.css"
 import "../styling/portfolio.css"
 import "../styling/resume.css"
 import "../styling/contact.css"
+import { AnimatePresence } from 'framer-motion';
+
 
 import {
   Switch,
@@ -29,6 +31,7 @@ class App extends React.Component {
       <div className="App">
         <BrowserRouter>
           <Header />
+          <AnimatePresence exitBeforeEnter>
           <Switch>
             <Route exact path="/">
               <Home />
@@ -58,6 +61,7 @@ class App extends React.Component {
               <Redirect to="/" />
             </Route>
           </Switch>
+          </AnimatePresence>
           <Footer />
         </BrowserRouter>
       </div>
