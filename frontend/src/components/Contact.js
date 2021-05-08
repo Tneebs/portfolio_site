@@ -42,6 +42,7 @@ function sendEmail(e) {
           <Button type='submit' variant="dark" className='contact-btn'>Send</Button>
         </Form>
       </div>
+      <div className='contact-break' />
     </div>
   )
 }

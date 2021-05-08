@@ -13,6 +13,7 @@ import "../styling/blogs.css"
 import "../styling/portfolio.css"
 import "../styling/resume.css"
 import "../styling/contact.css"
+import "../styling/home.css"
 import { AnimatePresence } from 'framer-motion';
 
 

@@ -117,7 +117,7 @@ const Portfolio = () => {
 
             <div className="project-card">
               <iframe
-                className="project-vid"
+                className="project-portfoliu-vid"
                 title="Portfoli-U"
                 src="https://www.youtube.com/embed/DumBp8l2R6A"
                 frameBorder="0"
@@ -157,7 +157,7 @@ const Portfolio = () => {
 
             <div className="project-card">
               <iframe
-                className="project-vid"
+                className="project-toughflix-vid"
                 title="ToughFlix"
                 src="https://www.youtube.com/embed/hMUHb7im-XE"
                 frameBorder="0"
@@ -201,7 +201,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className='portfolio-break' />
+          <div className='portfolio-break-2' />
         </div>
     </>
   );

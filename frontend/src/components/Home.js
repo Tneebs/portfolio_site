@@ -68,7 +68,7 @@ const Home = () => {
         animate='visible'
         exit='exit'
       >
-        <p className='quote-1'><em>"All problems in computer science can be solved by another level of indrection." <br/> - David Wheeler</em></p>
+        <p className='quote-1'><em>"All problems in computer science can be solved by another level of indirection." <br/> - David Wheeler</em></p>
       </motion.div>
 
       <motion.div className='welcome-quote-2'
