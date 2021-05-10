@@ -1,5 +1,5 @@
 import React from "react";
-import Google from "../images/GoogleDocs.png"
+import Google from "../images/GoogleDocs_White.png"
 
 const Resume = () => {
   return (

@@ -251,6 +251,10 @@
     margin-top: 1vh;
     font-size: 1.2vw;
   }
+
+  .resume-break {
+    padding: 5vh;
+  }
   
   /* Media Queries */
 
