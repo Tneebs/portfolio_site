@@ -15,15 +15,11 @@ import "../styling/resume.css"
 import "../styling/contact.css"
 import "../styling/home.css"
 import { AnimatePresence } from 'framer-motion';
-
-
 import {
   Switch,
   BrowserRouter,
   Route,
-  withRouter,
   Redirect,
-  NavLink
 } from "react-router-dom";
 
 class App extends React.Component {

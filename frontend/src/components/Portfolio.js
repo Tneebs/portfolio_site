@@ -1,9 +1,7 @@
 import React from "react";
 import github from "../images/github.png";
 import MPloy from "../images/MPloyScreenshot.png";
-
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Button from "react-bootstrap/Button";
 
 const Portfolio = () => {
   return (
@@ -38,7 +36,7 @@ const Portfolio = () => {
                   MPloy is an application that allows employees to make requests
                   to their managers and view a profile page of their requests.
                 </p>
-                <img className='project-screenshot' src={MPloy} />
+                <img className='project-screenshot' src={MPloy} alt='MPloy'/>
               </div>
 
           </Jumbotron>

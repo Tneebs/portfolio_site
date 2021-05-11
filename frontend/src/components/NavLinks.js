@@ -1,7 +1,5 @@
 import React from 'react';
 import TNeebsSig from '../images/TNeebsSig.png'
-import { NavLink } from "react-router-dom";
-import Navbar from 'react-bootstrap/Navbar'
 import { motion } from 'framer-motion';
 
 const buttonVariants = {

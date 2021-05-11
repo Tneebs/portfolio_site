@@ -1,6 +1,5 @@
 import React from 'react';
 import github from '../images/github.png';
-import GoogleDocs from '../images/GoogleDocs.png';
 import Instagram from '../images/Instagram.png';
 import LinkedIn from '../images/LinkedIn.png';
 import Medium from '../images/Medium.png';
@@ -34,9 +33,6 @@ const MediaLinks = () => {
                     <img className="mediaLinks-logo" alt="youtube-logo" src={YouTube} />
                 </a>
 
-                {/* <a href="">
-                    <img className="mediaLinks-logo" alt="resume-logo" src={GoogleDocs} />
-                </a> */}
             </div>
         </div>
     )
