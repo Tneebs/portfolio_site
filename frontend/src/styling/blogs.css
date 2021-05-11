@@ -17,7 +17,6 @@
     margin-left: 5vw;
     margin-right: 5vw;
     background-color: white;
-    opacity: 85%;
   }
   
   .blog-card-row {
@@ -134,7 +133,6 @@
       box-shadow: 4px 4px 6px 4px grey;
       margin: 4vw auto;
       background-color: white;
-      opacity: 85%;
     }
 
     .blog-card-title {
@@ -208,7 +206,6 @@
     box-shadow: 4px 4px 6px 4px grey;
     margin: 4vw auto;
     background-color: white;
-    opacity: 85%;
   }
 
   .blog-card-title {

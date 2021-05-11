@@ -134,7 +134,6 @@
     align-items: center;
     width: 90%;
     margin: 0 auto;
-    opacity: 85%;
     box-shadow: 3px 3px 4px 3px grey;
   }
   
@@ -241,7 +240,6 @@
         align-items: center;
         width: 90%;
         margin: auto;
-        opacity: 85%;
         box-shadow: 3px 3px 4px 3px grey;
       }
 
@@ -396,7 +394,6 @@
     width: 90%;
     margin: 0 auto;
     padding: 0;
-    opacity: 85%;
     box-shadow: 3px 3px 4px 3px grey;
   }
 
