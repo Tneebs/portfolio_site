@@ -58,7 +58,7 @@ const Blogs = () => {
 
         <div className='blog-card'>
           <a href="https://tedneben.medium.com/beginning-to-balance-tech-3c624ebee412">
-            <h2 className='blog-card-title'>Beggining to Balance Tech</h2>
+            <h2 className='blog-card-title'>Beginning to Balance Tech</h2>
             <img className='blog-card-img' alt='redux3-img' src={TechBalancing} />
           </a>
         </div>
