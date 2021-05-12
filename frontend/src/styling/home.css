@@ -51,11 +51,12 @@
       color: white;
       width: 50vw;
       margin-left: 48vw;
-      margin-top: 17vh;
+      margin-bottom: 17vh;
     }
   
     .welcome {
       width: 50vw;
+      margin-top: 7vh;
     }
   
     .quote-1 {
