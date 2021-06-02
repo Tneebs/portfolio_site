@@ -1,7 +1,7 @@
 /* Resume Page */
 
 .resume-container {
-    height: 100vh;
+    height: 110vh;
   }
   
   .resume-page {
@@ -260,7 +260,7 @@
 
 @media (orientation: portrait) and (max-height: 1200px) {
     .resume-container {
-      height: 100vh;
+      height: 110vh;
     }
 
     .resume-page {
@@ -513,7 +513,7 @@
 
 @media (orientation: portrait) and (min-height: 1300px) {
     .resume-container {
-        height: 100vh;
+        height: 140vh;
     }
 
     .resume-page {

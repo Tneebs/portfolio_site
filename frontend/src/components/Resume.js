@@ -171,7 +171,7 @@ const Resume = () => {
           <br/>
           <br/>
       </div>
-      <div className='resume-break'/>
+
     </div>
   )
 };

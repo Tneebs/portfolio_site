@@ -54,7 +54,6 @@ a.nav:hover {
 .footer-container {
   display: flex;
   justify-content: center;
-  position: fixed;
   bottom: 0;
   width: 100vw;
   background-color: whitesmoke;
